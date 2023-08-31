@@ -34,7 +34,7 @@ public class ClientController {
     ArrayList<Client> listClient = new ArrayList<Client>();
     int contador = 1;
     
-    
+
     @GetMapping("/{id}")
     @ResponseStatus(HttpStatus.OK)
     public Client findById(@PathVariable Long id) throws Exception {
@@ -56,7 +56,7 @@ public class ClientController {
             Client clientExist = resOptional.get();
             clientExist.setName(client.getName());
             clientExist.setAge(client.getAge());
-            clientExist.setMarital_status(client.getMarital_status());
+            clientExist.setMaritalStatus(client.getMaritalStatus());
             clientExist.setDependents(client.getDependents());
             clientExist.setIncome(client.getIncome());
 

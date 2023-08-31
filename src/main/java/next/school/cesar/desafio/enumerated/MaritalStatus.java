@@ -1,4 +1,4 @@
-package next.school.cesar.desafio.entities;
+package next.school.cesar.desafio.enumerated;
 
 public enum MaritalStatus {
     single,

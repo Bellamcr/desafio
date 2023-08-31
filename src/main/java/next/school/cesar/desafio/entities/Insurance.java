@@ -15,6 +15,8 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import next.school.cesar.desafio.enumerated.InsuranceAnalysis;
+import next.school.cesar.desafio.enumerated.InsuranceType;
 
 @Builder
 @NoArgsConstructor

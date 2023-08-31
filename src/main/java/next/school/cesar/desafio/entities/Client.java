@@ -17,6 +17,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import next.school.cesar.desafio.enumerated.MaritalStatus;
 
 @Builder
 @NoArgsConstructor
@@ -39,7 +40,7 @@ public class Client {
     private double income;
     @Column (nullable = false)   
     @Enumerated(EnumType.STRING)
-    private MaritalStatus marital_status;
+    private MaritalStatus maritalStatus;
     @Column (nullable = false)    
     private LocalDate createdAt;
     @Column (nullable = false)

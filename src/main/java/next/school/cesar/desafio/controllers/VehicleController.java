@@ -36,7 +36,7 @@ public class VehicleController {
     }
 
 //Cria uma associação entre cliente e veículo.
-    @PutMapping("/{id}")
+    @PutMapping("/{id}/clients")
     @ResponseStatus(HttpStatus.OK)
     public Vehicle update(@RequestBody @Validated Vehicle client) throws Exception {
         return vehicleRepository.save(client);
